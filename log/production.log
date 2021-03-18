@@ -1,0 +1,72 @@
+I, [2021-03-18T10:51:43.115377 #8055]  INFO -- : [0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420] Started GET "/" for 127.0.0.1 at 2021-03-18 10:51:43 +0100
+I, [2021-03-18T10:51:43.120066 #8055]  INFO -- : [0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420] Processing by PagesController#home as HTML
+I, [2021-03-18T10:51:43.141445 #8055]  INFO -- : [0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]   Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+I, [2021-03-18T10:51:43.146762 #8055]  INFO -- : [0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]   Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 629)
+I, [2021-03-18T10:51:43.147677 #8055]  INFO -- : [0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420] Completed 500 Internal Server Error in 27ms (Allocations: 1932)
+F, [2021-03-18T10:51:43.149604 #8055] FATAL -- : [0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]   
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]      6:   <%= csrf_meta_tags %>
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]      7:   <%= csp_meta_tag %>
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]      8: 
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]      9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]     10:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]     11: </head>
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]     12: 
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420]   
+[0e47cd33-ff2c-4ec2-a8c1-bcd1d66db420] app/views/layouts/application.html.erb:9
+I, [2021-03-18T10:51:48.314926 #8055]  INFO -- : [b799d684-324a-4315-9b43-9c6a384bca21] Started GET "/" for 127.0.0.1 at 2021-03-18 10:51:48 +0100
+I, [2021-03-18T10:51:48.315715 #8055]  INFO -- : [b799d684-324a-4315-9b43-9c6a384bca21] Processing by PagesController#home as HTML
+I, [2021-03-18T10:51:48.316780 #8055]  INFO -- : [b799d684-324a-4315-9b43-9c6a384bca21]   Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2021-03-18T10:51:48.317236 #8055]  INFO -- : [b799d684-324a-4315-9b43-9c6a384bca21]   Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 262)
+I, [2021-03-18T10:51:48.317323 #8055]  INFO -- : [b799d684-324a-4315-9b43-9c6a384bca21] Completed 500 Internal Server Error in 2ms (Allocations: 1190)
+F, [2021-03-18T10:51:48.317772 #8055] FATAL -- : [b799d684-324a-4315-9b43-9c6a384bca21]   
+[b799d684-324a-4315-9b43-9c6a384bca21] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[b799d684-324a-4315-9b43-9c6a384bca21]      6:   <%= csrf_meta_tags %>
+[b799d684-324a-4315-9b43-9c6a384bca21]      7:   <%= csp_meta_tag %>
+[b799d684-324a-4315-9b43-9c6a384bca21]      8: 
+[b799d684-324a-4315-9b43-9c6a384bca21]      9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[b799d684-324a-4315-9b43-9c6a384bca21]     10:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[b799d684-324a-4315-9b43-9c6a384bca21]     11: </head>
+[b799d684-324a-4315-9b43-9c6a384bca21]     12: 
+[b799d684-324a-4315-9b43-9c6a384bca21]   
+[b799d684-324a-4315-9b43-9c6a384bca21] app/views/layouts/application.html.erb:9
+I, [2021-03-18T10:52:35.109501 #8153]  INFO -- : [c1fb65fa-a3da-4d92-b263-b7108cf81fa7] Started GET "/" for 127.0.0.1 at 2021-03-18 10:52:35 +0100
+I, [2021-03-18T10:52:35.110534 #8153]  INFO -- : [c1fb65fa-a3da-4d92-b263-b7108cf81fa7] Processing by PagesController#home as HTML
+I, [2021-03-18T10:52:35.147337 #8153]  INFO -- : [c1fb65fa-a3da-4d92-b263-b7108cf81fa7]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+I, [2021-03-18T10:52:35.158700 #8153]  INFO -- : [c1fb65fa-a3da-4d92-b263-b7108cf81fa7]   Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 628)
+I, [2021-03-18T10:52:35.163170 #8153]  INFO -- : [c1fb65fa-a3da-4d92-b263-b7108cf81fa7] Completed 500 Internal Server Error in 53ms (Allocations: 1913)
+F, [2021-03-18T10:52:35.163710 #8153] FATAL -- : [c1fb65fa-a3da-4d92-b263-b7108cf81fa7]   
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]      6:   <%= csrf_meta_tags %>
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]      7:   <%= csp_meta_tag %>
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]      8: 
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]      9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]     10:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]     11: </head>
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]     12: 
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7]   
+[c1fb65fa-a3da-4d92-b263-b7108cf81fa7] app/views/layouts/application.html.erb:9
+I, [2021-03-18T10:52:38.024502 #8153]  INFO -- : [b702bad4-b775-4b20-b47a-47eb79c3b1dc] Started GET "/" for 127.0.0.1 at 2021-03-18 10:52:38 +0100
+I, [2021-03-18T10:52:38.025130 #8153]  INFO -- : [b702bad4-b775-4b20-b47a-47eb79c3b1dc] Processing by PagesController#home as HTML
+I, [2021-03-18T10:52:38.025672 #8153]  INFO -- : [b702bad4-b775-4b20-b47a-47eb79c3b1dc]   Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+I, [2021-03-18T10:52:38.027382 #8153]  INFO -- : [b702bad4-b775-4b20-b47a-47eb79c3b1dc]   Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 262)
+I, [2021-03-18T10:52:38.027500 #8153]  INFO -- : [b702bad4-b775-4b20-b47a-47eb79c3b1dc] Completed 500 Internal Server Error in 2ms (Allocations: 554)
+F, [2021-03-18T10:52:38.027938 #8153] FATAL -- : [b702bad4-b775-4b20-b47a-47eb79c3b1dc]   
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]      6:   <%= csrf_meta_tags %>
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]      7:   <%= csp_meta_tag %>
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]      8: 
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]      9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]     10:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]     11: </head>
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]     12: 
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc]   
+[b702bad4-b775-4b20-b47a-47eb79c3b1dc] app/views/layouts/application.html.erb:9
+I, [2021-03-18T10:52:39.260001 #8153]  INFO -- : [799ab46b-2da4-4c30-9b99-67cdec9b66e6] Started GET "/favicon.ico" for 127.0.0.1 at 2021-03-18 10:52:39 +0100
+F, [2021-03-18T10:52:39.260339 #8153] FATAL -- : [799ab46b-2da4-4c30-9b99-67cdec9b66e6]   
+[799ab46b-2da4-4c30-9b99-67cdec9b66e6] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[799ab46b-2da4-4c30-9b99-67cdec9b66e6]   
